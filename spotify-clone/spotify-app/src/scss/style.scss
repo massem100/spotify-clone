@@ -1,0 +1,22 @@
+@mixin Flex ($direction) {
+    display:flex; 
+    flex-direction: direction;
+    
+}
+
+nav{
+    @include Flex(row);
+    margin:0;
+    padding:0;
+    background-color: black;
+    color:white;
+    
+    
+}
+
+.black{
+    // background-color: black; 
+    width: 200px; 
+    height: 100px;
+}
+
